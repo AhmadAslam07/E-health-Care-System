@@ -42,7 +42,7 @@ npm install
 
 npm start
 
-Open: http://localhost:3001
+Open: http://localhost:----
 
 
 # Import MySQL Database (Using XAMPP)
@@ -51,7 +51,7 @@ Open XAMPP and start Apache and MySQL.
 
 Go to http://localhost/phpmyadmin.
 
-Click new to create a new database and name it pulseconnect and then click go.
+Click new to create a new database and name it " "and then click go.
 
 Click Import.
 
@@ -79,6 +79,8 @@ Lab Report Uploads
 Testimonials System (CRUD)
 
 Role-based Navbar
+
+Chat bot  -- "Our intelligent patient assistant helps users navigate healthcare services through platform tutorials, AI-driven symptom evaluation, and personalized doctor recommendations."
 
 
 # Developer Info
