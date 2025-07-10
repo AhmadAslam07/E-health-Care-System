@@ -1,0 +1,124 @@
+.row {
+    --bs-gutter-x: 0rem;
+}
+
+.buttons .btn-link {
+    text-decoration: none;
+    color: var(--green-clr) !important;
+    border: 1px solid var(--green-clr);
+    border-radius: 4px;
+    display: block;
+    padding: 0.375rem 0.75rem;
+}
+
+.buttons .btn-link:hover {
+    background-color: var(--green-clr) !important;
+    color: #fff !important;
+}
+
+.buttons .green-btn .book-link {
+    padding: 0.375rem 0.75rem !important;
+    background-color: var(--green-clr) !important;
+    color: #fff !important;
+    display: block;
+}
+
+.buttons .green-btn .book-link:hover {
+    background-color: #fff !important;
+    color: var(--green-clr) !important
+}
+
+.buttons .btn {
+    padding: 0;
+}
+
+.btn-text:hover {
+    color: #fff !important;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    width: 100px !important;
+    height: 110px !important;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    /* Slight rounding on corners, not circular */
+}
+
+.card.shadow-sm {
+    border-radius: 10px;
+}
+
+h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+h6 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.text-secondary {
+    font-size: 0.9rem;
+}
+
+.review-count svg,
+.recommended svg {
+    color: #f0ad4e;
+}
+
+.recommended {
+    font-weight: 500;
+    color: #28a745;
+}
+
+.white-btn {
+    background-color: #ffffff;
+    border: 1px solid #0E8A8A;
+    color: #0E8A8A;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.white-btn:hover {
+    background-color: #0E8A8A;
+    color: #ffffff;
+}
+
+.green-btn {
+    background-color: #0E8A8A;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+.green-btn:hover {
+    background-color: #0c6b6b;
+}
+
+.btn-link,
+.book-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.buttons {
+    padding-top: 10px;
+}
+
+.card-body h6 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.card-body span {
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-top: 2px;
+}

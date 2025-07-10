@@ -1,0 +1,62 @@
+/* LabReports.css */
+.reports-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.report-card {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 0.5rem;
+  transition: transform 0.2s;
+}
+
+.report-card:hover {
+  transform: translateY(-3px);
+}
+
+.delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+  color: #dc3545;
+  background: white;
+  border-radius: 50%;
+  padding: 2px 5px;
+}
+
+.img-thumbnail {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.image-name {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+  text-align: center;
+  word-break: break-word;
+}
+
+.upload-section {
+  padding: 1rem;
+  border-bottom: 2px solid #eee;
+}
+
+.report-card {
+  position: relative;
+}
+
+.delete-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  cursor: pointer;
+  color: red;
+  font-size: 1.2rem;
+}

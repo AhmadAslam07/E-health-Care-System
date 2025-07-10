@@ -1,0 +1,21 @@
+{
+  "name": "ahmad-fyp",
+  "version": "1.0.0",
+  "description": "PulseConnect is a comprehensive healthcare platform that connects patients with doctors, offering appointment scheduling, video consultations, lab report uploads, and testimonials.",
+  "main": "peer-server.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\" \"npm run peer\"",
+    "server": "cd backend && npm run dev",
+    "client": "cd frontend && npm start",
+    "peer": "node peer-server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "multer": "^2.0.0",
+    "nodemailer": "^7.0.3",
+    "peer": "^1.0.2",
+    "stripe": "^18.1.0"
+  }
+}

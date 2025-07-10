@@ -1,0 +1,12 @@
+export { default as Home } from './Home';
+export { default as PatientsRegistration } from './PatientsRegistration';
+export { default as PatientsLogin } from './PatientsLogin';
+export { default as DrsRegistration } from './DrsRegistration';
+export { default as DrsLogin } from './DrsLogin';
+export { default as DrProfile } from './DrProfile';
+export { default as Doctor } from './Doctor';
+export { default as ContactUs } from './ContactUs';
+export { default as AboutUs } from './AboutUs';
+export { default as ErrorPage } from './ErrorPage';
+export { default as ServerError } from './ServerError';
+export { default as VideoCall } from '../components/PatientDashboard/components/VideoCall/VideoCall';

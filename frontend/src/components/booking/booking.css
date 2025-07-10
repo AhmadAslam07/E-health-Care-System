@@ -1,0 +1,13 @@
+.book-card{
+    margin: 39px auto;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.confirm-book{
+    padding: 0.575rem 1.99rem !important;
+    background-color: var(--green-clr)!important;
+    color: #fff !important;
+    display: block;
+    border-radius: 4px;
+}
